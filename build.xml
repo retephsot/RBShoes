@@ -78,9 +78,9 @@
 			<echo message="Use command: Ant run or Ant runsuite to execute the tests" />
 		  </target>
 
-<!-- ============== To send Test Result Ant Report after running RTest ======================= -->	
-	<target description="Generates and send test reports" name="sendMail" >
-		<mail mailhost="smtp.gmail.com" 
+<!-- ============== To send Test Result Ant Report after running RTest ============================= -->	
+	<target description="Generates and send test reports" name="sendMail">
+		<mail mailhost="smtp.gmail.com"
 			mailport="465"   
 			subject="RTest Results Ant Report"
 			ssl="true"
